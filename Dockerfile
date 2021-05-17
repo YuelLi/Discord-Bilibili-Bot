@@ -21,6 +21,7 @@ RUN apk update \
   make \
   musl-dev \
   python3-dev \
+  py3-pip\
 \
 # Install pip dependencies
 && pip3 install --no-cache-dir -r requirements.txt \
